@@ -47,3 +47,28 @@ header{
     background-color: #ffffff;
     color: #000000;
 }
+/*
+main
+*/
+
+section{
+    padding: 20px;
+
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section img{
+    min-width: 300px;
+    width: 350px;
+
+    align-self: center;
+}
+section h1{
+    color: #23272A;
+    font-weight: 100;
+}
+section p{
+    color: black;
+    align-self: start;
+}
