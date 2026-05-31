@@ -7,10 +7,11 @@
 }
 h1{
   font-family: "Luckiest Guy";
+  font-weight: 100;
   color: #ffffff;
 }
 
-p{
+h2,p{
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }

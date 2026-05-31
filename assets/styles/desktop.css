@@ -1,0 +1,144 @@
+@import url(reset.css);
+
+button:hover{
+  cursor: pointer;
+}
+header{
+    background-image: url(../image/imagem-mobile-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 70px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.header h1{
+    text-align: center;
+    width: 30vw;
+}
+.header p{
+    text-align: center;
+    width: 77vw;
+    color: #ffffff;
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+}
+.header div button{
+    width: 230px;
+    height: 40px;
+    border-radius: 50px 50px;
+    border: none;
+}
+.header div button:nth-of-type(2){
+    background-color: #23272A;
+    color: #ffffff;
+}
+.header div button:nth-of-type(1):hover{
+    background-color: #23272A;
+    color: #ffffff;
+}
+.header div button:nth-of-type(2):hover{
+    background-color: #ffffff;
+    color: #23272A;
+}
+.header div button:nth-of-type(1):active{
+    background-color: #ffffff;
+    color: #23272A;
+}
+.header div button:nth-of-type(2):active{
+    background-color: #23272A;
+    color: #ffffff;
+}
+
+/*
+main
+*/
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+section{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+section:nth-of-type(even){
+    background: #f6f6f6;
+    flex-direction: row-reverse;
+}
+.sectionText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.sectionText h2{
+    width: 21vw;
+
+    color: #23272A;
+    font-weight: 800;
+}
+.sectionText p{
+    width: 25vw;
+
+    font-size: x-small;
+}
+.sectionText h1,p{
+    color: #000000;
+}
+picture img{
+    width: 40vw;
+}
+section:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-of-type(4) div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section:nth-of-type(4) div h1{
+    width: 40vw;
+    color: #23272A;
+    font-weight: 400;
+}
+section:nth-of-type(4) div p{
+    width: 54vw;
+    
+}
+section:nth-of-type(4) picture img{
+    width: 57vw;
+}
+/*
+footer
+*/
+footer{
+    height: 140px;
+    background-color: #23272A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

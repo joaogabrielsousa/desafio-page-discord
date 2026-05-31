@@ -58,6 +58,14 @@ section{
     flex-direction: column;
     gap: 20px;
 }
+section:nth-of-type(even){
+    background: #f6f6f6;
+}
+.sectionText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 section img{
     min-width: 300px;
     width: 350px;
@@ -66,7 +74,11 @@ section img{
 }
 section h1{
     color: #23272A;
-    font-weight: 100;
+    font-weight: 400;
+}
+section h2{
+    color: #23272A;
+    font-weight: 800;
 }
 section p{
     color: black;
